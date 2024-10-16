@@ -45,7 +45,7 @@ generation_config = {
   "max_output_tokens": 2048,
 }
 
-model = genai.GenerativeModel(model_name="gemini-pro-vision", generation_config=generation_config)
+model = genai.GenerativeModel(model_name="gemini-1.5-flash", generation_config=generation_config)
 
 image_path = Path("forecast.jpeg")
 
